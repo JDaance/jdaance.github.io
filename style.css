@@ -1,5 +1,11 @@
 body {
 	background-color: black;
+	color: white;
+	font-family: verdana;
+}
+
+a, a:visited {
+	color: #a67d3d;
 }
 
 #splash {
