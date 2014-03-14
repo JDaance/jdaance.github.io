@@ -8,7 +8,7 @@ a, a:visited {
 	color: #a67d3d;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 1000px) {
 	#splash {
 		margin-top: 50px;
 		margin-left: 20%;
@@ -17,7 +17,7 @@ a, a:visited {
 	}
 }
 
-@media all and (max-width: 699px) {
+@media all and (max-width: 999px) {
 	#splash {
 		margin-top: 10px;
 		margin-left: auto;
