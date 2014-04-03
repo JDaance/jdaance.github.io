@@ -5,7 +5,9 @@
     <title>Skyturns</title>
 	<link href="reset.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+</head>
 <body>
 <div id="logo_left_container">
     <div id="logo_left">
@@ -22,12 +24,46 @@
     </div>
 </div>
 <div id="content">
-   <div id="film">
-    <p>&nbsp;</p>
-  </div>
-  <div id="info">Coming soon on Android and iOS</div>
-  <div id="screenshots"><img src="../../../../../../Library/Application Support/Apple/iChat Icons/Planets/Neptune.gif" width="48" height="48" alt="sky" /><img src="../../../../../../Library/Application Support/Apple/iChat Icons/Fung Shui/Chouchin Reinensai (Lantern).gif" width="48" height="48" /><img src="../../../../../../Library/Application Support/Apple/iChat Icons/Funk Animals/Woof.gif" width="48" height="48" /></div>
+	<div id="film">
+    	<iframe width="700" height="467" src="http://www.youtube.com/embed/7osYZX00OKo" frameborder="0" allowfullscreen></iframe>
+	</div>
+  
+	<div id="info">Coming soon on Android and iOS</div>
+  
+  	<div id="screenshots">
+ 
+		<div id="owl-demo">
+          	<div class="item"><img src="images/screenshots/Skyturns1.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns2.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns3.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns4.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns5.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns6.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns7.png" /></div>
+            <div class="item"><img src="images/screenshots/Skyturns8.png" /></div>
+		</div>
+	</div>
+
   <div id="contact">info@skyturns.se</div>
+  
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 6000, //Set AutoPlay to 6 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
+</script>
 </body>
 </html>

@@ -13,29 +13,6 @@ a, a:visited {
 	color: #a67d3d;
 }
 
-/*@media all and (min-width: 1000px) {
-	#splash {
-		margin-top: 50px;
-		margin-left: 20%;
-		margin-right: 20%;
-		width: 60%;
-	}
-}
-
-@media all and (max-width: 999px) {
-	#splash {
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-	}
-}
-
-#splash img {
-	width: 100%;
-}
-*/
-
 #logo_left_container {
   width:50%;
   float:left;
@@ -54,6 +31,7 @@ a, a:visited {
 	/* not important */
 	color: #FFF;
 	height: 180px;
+	margin-bottom: 20px;
 }
 #logo_right_container {
 	width: 50%;
@@ -71,7 +49,7 @@ a, a:visited {
 
 #content {
 	clear: left; 
-	width: 800px;
+	width: 960px;
 	margin-top: -180px;
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -80,15 +58,46 @@ a, a:visited {
 }
 
 #film {
+	width: 700px;
 	text-align: center;
-	margin-top: 50px;
-}
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: white;
+	border-width: 8px;
+	border-style: solid;
+	box-shadow: 1px 1px 0 #a67d3d,
+    -1px 1px 0 #a67d3d,
+    1px -1px 0 #a67d3d,
+    -1px -1px 0 #a67d3d,
+    0px 1px 0 #a67d3d,
+    0px -1px 0 #a67d3d,
+    -1px 0px 0 #a67d3d,
+    1px 0px 0 #a67d3d,
+    2px 2px 0 #a67d3d,
+    -2px 2px 0 #a67d3d,
+    2px -2px 0 #a67d3d,
+    -2px -2px 0 #a67d3d,
+    0px 2px 0 #a67d3d,
+    0px -2px 0 #a67d3d,
+    -2px 0px 0 #a67d3d,
+    2px 0px 0 #a67d3d,
+    1px 2px 0 #a67d3d,
+    -1px 2px 0 #a67d3d,
+    1px -2px 0 #a67d3d,
+    -1px -2px 0 #a67d3d,
+    2px 1px 0 #a67d3d,
+    -2px 1px 0 #a67d3d,
+    2px -1px 0 #a67d3d,
+    -2px -1px 0 #a67d3d;
+	}
 
 #info {
 	font-size: 24px;
 	font-weight: bold;
 	color: #a67d3d;
 	text-align: center;
+	margin-top: 20px;
 	text-shadow: 1px 1px 0 white,
     -1px 1px 0 white,
     1px -1px 0 white,
@@ -113,21 +122,28 @@ a, a:visited {
     -2px 1px 0 white,
     2px -1px 0 white,
     -2px -1px 0 white;
-	margin-top: 50px;
 }
 
 #screenshots {
 	text-align: center;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
+
+#owl-demo .item{
+  margin: 5px;
+}
+#owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border: thin solid rgba(34,34,34,0.1);
+}
+
 #contact {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-}
-#logotype {
-	margin-top: 50px;
-	font-size: 36px;
-	font-weight: bold;
+	color: rgba(34,34,34,0.4);
+	margin-bottom: 10px;
 }
