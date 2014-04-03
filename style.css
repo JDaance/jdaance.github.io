@@ -1,4 +1,6 @@
+html{height: 100%;}
 body {
+	height: 100%;
 	background-color: black;
 	color: white;
 	font-family: verdana;
@@ -8,7 +10,7 @@ a, a:visited {
 	color: #a67d3d;
 }
 
-@media all and (min-width: 1000px) {
+/*@media all and (min-width: 1000px) {
 	#splash {
 		margin-top: 50px;
 		margin-left: 20%;
@@ -28,4 +30,72 @@ a, a:visited {
 
 #splash img {
 	width: 100%;
+}
+*/
+
+#content {
+	min-height: 99%;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	text-align: center;
+}
+
+#film {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#info {
+	font-size: 24px;
+	font-weight: bold;
+	color: #a67d3d;
+	text-align: center;
+	text-shadow: 1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
+	margin-top: 50px;
+}
+
+#screenshots {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+#contact {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	bottom: 0pt;
+	position: absolute;
+	width: 100%;
+}
+#logotype {
+	margin-top: 50px;
+	font-size: 36px;
+	font-weight: bold;
 }
