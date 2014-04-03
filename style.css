@@ -4,6 +4,9 @@ body {
 	background-color: black;
 	color: white;
 	font-family: verdana;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
 }
 
 a, a:visited {
@@ -33,14 +36,46 @@ a, a:visited {
 }
 */
 
+#logo_left_container {
+  width:50%;
+  float:left;
+  margin-right:-237px; /* minus half of the center container width */
+
+}
+#logo_left {
+	margin-right: 237px;
+	height: 180px;
+	background-image: url(images/logostripe.png);
+	background-repeat: repeat-x;
+}
+#logo_center {
+	width: 474px; /* size of the fixed width */
+	float: left;
+	/* not important */
+	color: #FFF;
+	height: 180px;
+}
+#logo_right_container {
+	width: 50%;
+	float: left;
+	margin-left: -237px; /* minus half of the center container width */
+
+}
+#logo_right {
+	margin-left: 237px; /* half of the center container width */
+	/* not important */
+	height: 180px;
+	background-image: url(images/logostripe.png);
+	background-repeat: repeat-x;
+}
+
 #content {
-	min-height: 99%;
+	clear: left; 
 	width: 800px;
-	margin-top: 0px;
+	margin-top: -180px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
-	position: relative;
 	text-align: center;
 }
 
@@ -90,9 +125,6 @@ a, a:visited {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	bottom: 0pt;
-	position: absolute;
-	width: 100%;
 }
 #logotype {
 	margin-top: 50px;
