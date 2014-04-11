@@ -16,6 +16,7 @@ a, a:visited {
 #logo_left_container {
   width:50%;
   float:left;
+  margin-top: 20px;
   margin-right:-237px; /* minus half of the center container width */
 
 }
@@ -31,11 +32,13 @@ a, a:visited {
 	/* not important */
 	color: #FFF;
 	height: 180px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 #logo_right_container {
 	width: 50%;
 	float: left;
+	margin-top: 20px;
 	margin-left: -237px; /* minus half of the center container width */
 
 }
@@ -50,54 +53,35 @@ a, a:visited {
 #content {
 	clear: left; 
 	width: 960px;
-	margin-top: -180px;
+	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
 	text-align: center;
 }
 
-#film {
-	width: 700px;
+#screenshots {
 	text-align: center;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	border-color: white;
-	border-width: 8px;
-	border-style: solid;
-	box-shadow: 1px 1px 0 #a67d3d,
-    -1px 1px 0 #a67d3d,
-    1px -1px 0 #a67d3d,
-    -1px -1px 0 #a67d3d,
-    0px 1px 0 #a67d3d,
-    0px -1px 0 #a67d3d,
-    -1px 0px 0 #a67d3d,
-    1px 0px 0 #a67d3d,
-    2px 2px 0 #a67d3d,
-    -2px 2px 0 #a67d3d,
-    2px -2px 0 #a67d3d,
-    -2px -2px 0 #a67d3d,
-    0px 2px 0 #a67d3d,
-    0px -2px 0 #a67d3d,
-    -2px 0px 0 #a67d3d,
-    2px 0px 0 #a67d3d,
-    1px 2px 0 #a67d3d,
-    -1px 2px 0 #a67d3d,
-    1px -2px 0 #a67d3d,
-    -1px -2px 0 #a67d3d,
-    2px 1px 0 #a67d3d,
-    -2px 1px 0 #a67d3d,
-    2px -1px 0 #a67d3d,
-    -2px -1px 0 #a67d3d;
-	}
+	padding-top: 20px;
+}
+
+#owl-demo .item{
+  margin: 5px;
+}
+
+#owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border: thin solid rgba(34,34,34,0.1);
+}
 
 #info {
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: bold;
 	color: #a67d3d;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	text-shadow: 1px 1px 0 white,
     -1px 1px 0 white,
     1px -1px 0 white,
@@ -124,26 +108,39 @@ a, a:visited {
     -2px -1px 0 white;
 }
 
-#screenshots {
+#info2 {
+	font-size: 24px;
+	font-weight: normal;
 	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 40px;
+	color: rgba(34,34,34,0.8);
+	margin-top: 15px;
 }
 
-#owl-demo .item{
-  margin: 5px;
-}
-#owl-demo .item img{
-	display: block;
-	width: 100%;
-	height: auto;
-	border: thin solid rgba(34,34,34,0.1);
+
+
+#film {
+	width: 700px;
+	text-align: center;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+	border: 6px solid rgba(9, 4, 4, 0.8);
+	}
+
+#about {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	color: rgba(34,34,34,0.8);
+	margin-top: 50px;
 }
 
 #contact {
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 14px;
+	font-weight: normal;
 	text-align: center;
-	color: rgba(34,34,34,0.4);
-	margin-bottom: 10px;
+	color: rgba(34,34,34,0.8);
+	padding-bottom: 30px;
+	margin-top: 10px;
 }
