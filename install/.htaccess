@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Hej Hopp!"
-AuthUserFile /storage/content/19/122819/skyturns.se/public_html/install/.htpasswd
-require valid-user
