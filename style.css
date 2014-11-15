@@ -1,7 +1,7 @@
 html{height: 100%;}
 body {
 	height: 100%;
-	background-color: black;
+	background-color: rgb(234, 242, 247);
 	color: rgba(34,34,34,0.8);
 	font-family: verdana;
 	background-image: url(images/bg.jpg);
@@ -116,6 +116,10 @@ a, a:visited {
 	margin-top: 15px;
 }
 
+#storebuttons {
+	margin-top: 50px;
+}
+
 
 
 #film {
@@ -127,6 +131,41 @@ a, a:visited {
 	border-radius: 15px;
 	border: 6px solid rgba(9, 4, 4, 0.8);
 	}
+
+#faq {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	color: rgba(34,34,34,0.8);
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+}
+
+#faq p {
+	font-size: 21px;
+	font-weight: normal;
+	text-align: left;
+	color: rgba(34,34,34,0.8);
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+#credits {
+	font-size: 14px;	
+}
+#credits table {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 1.7;
+}
+#credits table td {
+	width: 33%;
+}
 
 #about {
 	font-size: 14px;
@@ -143,4 +182,27 @@ a, a:visited {
 	color: rgba(34,34,34,0.8);
 	padding-bottom: 30px;
 	margin-top: 10px;
+}
+
+#presskit {
+	background-color: white;
+	/* border: 4px solid black; */
+	border-radius: 20px;
+	width: 660px;
+	margin: auto;
+	margin-top: 25px;
+	padding: 15px;
+}
+
+#presskit p {
+	font-size: 21px;
+	font-weight: normal;
+	text-align: center;
+	color: rgba(34,34,34,0.8);
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+#presskit .screenshot {
+	margin-top: 20px;
 }
