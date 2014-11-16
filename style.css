@@ -167,6 +167,10 @@ a, a:visited {
 	width: 33%;
 }
 
+#icon {
+	margin-top: 50px;
+}
+
 #about {
 	font-size: 14px;
 	font-weight: normal;
