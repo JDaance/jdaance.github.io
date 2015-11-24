@@ -1,0 +1,24 @@
+---
+layout: blog-base
+title: Blog
+menu_active: blog
+---
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      
+      <div class="post-short">
+
+        <div class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+      
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

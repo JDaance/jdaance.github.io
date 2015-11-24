@@ -1,19 +1,15 @@
+---
+title: Home
+menu_active: home
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
 <head>
-    <title>Skyturns - A game on iOS and Android</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    {% include head-commons.html %}
 
     <link href="owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
-    
-    <!-- for Google -->
-    <meta name="description" content="A challenge for speed in three dimensions!" />
-    <meta name="keywords" content="Android, iOS, iPhone, game, video game, runner, parkour, old school" />
     
     <!-- for Facebook -->          
     <meta property="og:image" content="http://skyturns.se/images/screenshots/Skyturns1.png" />
@@ -24,6 +20,9 @@
     <meta name="twitter:image" content="http://skyturns.se/images/screenshots/Skyturns1.png" />
 </head>
 <body>
+  
+{% include header.html %}
+
 <div id="logo_left_container">
     <div id="logo_left">
     </div>
@@ -38,7 +37,7 @@
     <div id="logo_right">
     </div>
 </div>
-<div id="content">
+<div class="content">
     
   	<div id="screenshots">
  
@@ -54,7 +53,7 @@
 		</div>
 	</div>
         
-	<div id="info">A challenge for speed in three dimensions</div>
+	<div class="fancy-header">A challenge for speed in three dimensions</div>
     
 	<div id="info2">
     <p>Out now on Android and iOS!</p>
@@ -72,36 +71,36 @@
     	<iframe width="700" height="430" src="http://www.youtube.com/embed/bvPLSfl1Qvg?modestbranding=1&showinfo=0&theme=dark" frameborder="0" allowfullscreen=""></iframe>
 	</div>
         
-  <div id="info">FAQ</div>
+  <div class="fancy-header">FAQ</div>
   <div id="faq">
-    <p>What is Skyturns?</p>
+    <h2>What is Skyturns?</h2>
     Joakim wanted a good cell phone/table game that is simple that you can play many many times and get infinitely good at, like <a href="http://www.moposite.com/info_games_elma.php">ElastoMania</a> has been for him on the PC. Skyturns has a very different setting but the principles are the same - many challenging levels that can be solved in different ways and that can be played thousands of times to find the fastest route or combination of jumps. Look at the videos and screenshots and you'll see what its like. Then you have to play it for a while to really get the point of it, when you get some flow and speed going.
 
-    <p>Who made it?</p>
+    <h2>Who made it?</h2>
     Joakim got the idea, coded it, made the art for it, and half of the levels. Rebecka made all the skies and the other half of the levels. Jonatan made all the music and sounds, and played and tested the game a lot lot lot. He also designed one of the final levels, Mills :) It took about two years full time to make.
 
-    <p>The game crashes on my device</p>
+    <h2>The game crashes on my device</h2>
     Joakim tries to keep the game crash free but there are almost 10 000 different Android devices out there so its impossible. Please do a refund on Google Play and hopefully we will be able to fix the crash through a crash report. Be quick since there was a 2 hour limit last we checked. If it crashes on iOS you can't get a refund in most countries but we should be able to fix the crash with an update since there are fewer iOS devices to support.
 
-    <p>The game is laggy!</p>
+    <h2>The game is laggy!</h2>
     On most modern devices the game should run at 60 fps! But we can't promise it does that on all of them. For Android it seems necessary to sometimes reboot the device - our Nexus 7 can go from 60 fps to less than 30 for no reason and on reboot it will be all smooth again. Sometimes it can help to activate flight mode to get rid of some competition from other phone functions. On iOS we wouldnt recommend playing on something older then a 4S, and on old phones don't upgrade your iOS above 6 if you can help it :)
 
-    <p>What game engine / language did you use to make it?</p>
+    <h2>What game engine / language did you use to make it?</h2>
     The game engine is open source and is called <a href="http://getmoai.com">Moai</a>. The engine is in C++ and the game code is written in embedded Lua. Lua is a great language, like javascript done right, try it :) We use FMOD for sound and music, except for sound effects on Android where we had to use Androids SoundPool.
 
-    <p>Why is it not on &lt;platform&gt;?</p>
+    <h2>Why is it not on &lt;platform&gt;?</h2>
     The only coder is Joakim and he has a lot to do and bad discipline. Even though it would be great to have on Windows Phone. We will see what happens in the future!
 
-    <p>I want to make my own levels!</p>
+    <h2>I want to make my own levels!</h2>
     There is an editor but it's not user friendly. Maybe with time and money we can make it public! No promises!
 
-    <p>I want to compare my times with other players!</p>
+    <h2>I want to compare my times with other players!</h2>
     We want to build a good system for best times and sharing replays, but it needs time and money to build it and run servers and stuff so we will see what happens. No promises!
 
-    <p>Where can I find some high res screenshots and logo (press kit light)?</p>
+    <h2>Where can I find some high res screenshots and logo (press kit light)?</h2>
     <a href="press.html">Click here</a>
 
-    <p>I want to review the game on iOS, where can I find a promo code?</p>
+    <h2>I want to review the game on iOS, where can I find a promo code?</h2>
     <a href="http://dodistribute.com/access/5W3J5KtVnm/">Use this link to request one!</a>
   </div>
         

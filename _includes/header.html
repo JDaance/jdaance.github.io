@@ -1,0 +1,11 @@
+<header class="site-header">
+
+  <nav class="fixed-nav-bar">
+    <div class="container">
+      <div {% if page.menu_active == 'home' %}class="active"{% endif %}><a href="/">Home</a></div>
+      <div {% if page.menu_active == 'blog' or page.date %}class="active"{% endif %}><a href="/blog.html">Blog</a></div>
+      <div {% if page.menu_active == 'press' %}class="active"{% endif %}><a href="/press.html">Press</a></div>
+    </div>
+  </nav>
+
+</header>

@@ -1,33 +1,22 @@
+---
+title: Press
+menu_active: press
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
 <head>
-    <title>Skyturns</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    {% include head-commons.html %}
 </head>
 <body>
-<div id="logo_left_container">
-    <div id="logo_left">
-    </div>
-</div>
+  
+{% include header.html %}
 
-<div id="logo_center">
-    <img src="images/logo.png" width="474" height="180" />    
-</div>
-
-
-<div id="logo_right_container">
-    <div id="logo_right">
-    </div>
-</div>
-<div id="content">
+<div class="content press">
         
-	<div id="info">"Press kit light"</div>
+	<div class="fancy-header">"Press kit light"</div>
         
-  <div id="presskit">
+  <div class="panel-press">
     
     <p>Feature image</p>
 
@@ -95,12 +84,9 @@
       <img width="600" src="images/presskit/5.png" />
     </div>
   </div>
-    
-    <div id="about">By Joakim and Rebecka Tall, with music by Jonatan Blomberg</div>
-    
-    <div id="contact">info@skyturns.se</div>
-  
 </div>
+  
+{% include footer.html %}
 
 </body>
 </html>

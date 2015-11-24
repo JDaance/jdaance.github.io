@@ -1,0 +1,28 @@
+
+.content.blog {
+	margin-top: 85px;
+	text-align: left;
+}
+
+.post-title {
+	@extend .fancy-header;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.post-title a {
+	text-decoration: none;
+}
+.post-meta {
+	@extend h2;
+}
+
+.post-short {
+	@extend .light-panel;
+	margin-top: 20px;
+}
+
+.post {
+	@extend .light-panel;
+	margin-top: 20px;
+}
