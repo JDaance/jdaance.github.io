@@ -31,6 +31,11 @@
 .fixed-nav-bar .container div.active {
 	background-color: lighten( #a67d3d, 20%);
 }
+@media only screen and (max-device-width : 1050px) {
+	.fixed-nav-bar .container {
+		border-radius: 0;
+	}
+}
 
 #logo_left_container {
   width:50%;
@@ -73,6 +78,10 @@
 #screenshots {
 	text-align: center;
 	padding-top: 20px;
+}
+
+#owl-demo {
+	width: 960px;
 }
 
 #owl-demo .item{

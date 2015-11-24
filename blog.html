@@ -16,7 +16,7 @@ menu_active: blog
       
         <p>{{ post.excerpt }}</p>
         <p>...</p>
-        <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
       </div>
     </li>
   {% endfor %}
