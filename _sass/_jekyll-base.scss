@@ -5,7 +5,7 @@
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: normal;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -57,9 +57,6 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
@@ -101,15 +98,6 @@ li {
     > ol {
          margin-bottom: 0;
     }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
 }
 
 

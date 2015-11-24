@@ -1,24 +1,4 @@
-@import "reset";
-@import "jekyll-base";
-@import "syntax-highlighting";
 
-$top-margin: 85px;
-$background-light: rgb(234, 242, 247);
-
-html{height: 100%;}
-body {
-	height: 100%;
-	background-color: $background-light;
-	color: rgba(34,34,34,0.8);
-	font-family: verdana;
-	background-image: url(../images/bg.jpg);
-	background-repeat: repeat-x;
-	background-position: center top;
-}
-
-a, a:visited {
-	color: #a67d3d;
-}
 
 .fixed-nav-bar {
 	position: fixed;
@@ -89,27 +69,6 @@ a, a:visited {
 	background-repeat: repeat-x;
 }
 
-.content {
-	clear: left; 
-	width: 960px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	text-align: center;
-}
-.content.press {
-	margin-top: 85px;
-}
-
-.light-panel {
-	background-color: rgba($background-light, 0.75);
-	border-radius: 10px;
-	padding: 12px;
-}
-.light-panel p {
-	margin-top: 10px;
-}
 
 #screenshots {
 	text-align: center;
@@ -125,39 +84,6 @@ a, a:visited {
 	width: 100%;
 	height: auto;
 	border: thin solid rgba(34,34,34,0.1);
-}
-
-.fancy-header {
-	font-size: 26px;
-	font-weight: bold;
-	color: #a67d3d;
-	text-align: center;
-	text-decoration: none;
-	margin-top: 40px;
-	text-shadow: 1px 1px 0 white,
-    -1px 1px 0 white,
-    1px -1px 0 white,
-    -1px -1px 0 white,
-    0px 1px 0 white,
-    0px -1px 0 white,
-    -1px 0px 0 white,
-    1px 0px 0 white,
-    2px 2px 0 white,
-    -2px 2px 0 white,
-    2px -2px 0 white,
-    -2px -2px 0 white,
-    0px 2px 0 white,
-    0px -2px 0 white,
-    -2px 0px 0 white,
-    2px 0px 0 white,
-    1px 2px 0 white,
-    -1px 2px 0 white,
-    1px -2px 0 white,
-    -1px -2px 0 white,
-    2px 1px 0 white,
-    -2px 1px 0 white,
-    2px -1px 0 white,
-    -2px -1px 0 white;
 }
 
 #info2 {
@@ -194,15 +120,6 @@ a, a:visited {
 	margin-left: auto;
 	margin-right: auto;
 	width: 640px;
-}
-
-h2 {
-	font-size: 18px;
-	font-weight: normal;
-	text-align: left;
-	color: rgba(34,34,34,0.8);
-	margin-top: 25px;
-	padding-bottom: 15px;
 }
 
 #credits {
