@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Skyturns top ten game on Chilean website!
+title: "Skyturns top ten game on Chilean website!"
+date:   2015-12-10 10:39:00 +0100
 categories: media general
 ---
 
@@ -13,6 +14,8 @@ Of course the website does not seem to be very big or anything, and sales have n
 [Here is a Google Translated link for you][google-translate]. I hope it works
 
 [And here is the original link][original]
+
+![Screenshot of website]({{ site.baseurl }}/assets/chilean-top-10.png)
 
 
 [google-translate]: https://translate.google.se/translate?sl=auto&tl=en&js=y&prev=_t&hl=sv&ie=UTF-8&u=http%3A%2F%2Fwww.androidos.cl%2Flos-mejores-juegos-de-android%2F&edit-text=&act=url

@@ -17,6 +17,7 @@
 	height: 50px;
 	background-color: #a67d3d;
 	border-radius: 30px;
+	position: relative;
 }
 .fixed-nav-bar .container div {
 	float: left;
@@ -35,6 +36,14 @@
 	.fixed-nav-bar .container {
 		border-radius: 0;
 	}
+}
+
+.blog-updated {
+	position: absolute;
+	left: 180px;
+	top: 29px;
+	color: rgb(188, 19, 19);
+	transform: rotate(-14deg);
 }
 
 #logo_left_container {
