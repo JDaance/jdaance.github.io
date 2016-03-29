@@ -70,7 +70,7 @@ To support all operations between client and server this is the API I'm thinking
     POST /get-replay { level_time_id }
     return { level_time_id, replay_data }
 
-    POST /set-replay-share-on-odd { level_id, on_off }
+    POST /set-replay-share-on-off { level_id, on_off }
     return { success: true }
 
     POST /get-times-for-level { level_id [, league] }
