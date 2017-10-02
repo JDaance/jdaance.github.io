@@ -14,7 +14,8 @@ I want people to have this stripped down, clean, pure experience of mastery, cre
 
 I also want the game to make money. I want it to be able to stand on its own legs - to support its own future. I want there to be enough revenue that we can have dedicated employees working on the game, improving it and maintaining it for a long time. This means a responsible system of in-app purchases, that will still allow the game to remain pure and simple and of course not alter gameplay in any  way whatsoever. The main driver for this will be replays, because in official replays other people will view your run of a level, and see what you see when you play. Any visual modification will be your own unique view on the game, which will be exposed through your replays.
 
-Create your own level, challenge your friends in battles. Pull up your phone and search for a quick battle on a new unknown level. Attain mastery of a level pack. Customize the look of your game. Find that new shortcut that cuts your level time in half. Reduce your total time and secure a place in your countries top list. Explore the limits of speed and three dimensions. Get notified that your friend just beat your time and show her whats what. Join a tournament. Make the perfect run. Explore your own potential for mastery and subtle detail! 
+Create your own level, challenge your friends in battles. Pull up your phone and search for a quick battle on a new unknown level. Attain mastery of a level pack. Customize the look of your game. Find that new shortcut that cuts your level time in half. Reduce your total time and secure a place in your country's top list. Explore the limits of speed and three dimensions. Get notified that your friend just beat your time and show her whats what. Join a tournament. Make the perfect run. Explore your own potential for mastery and subtle detail! 
 
 The sky is literally, not the limit.
+
 Joakim
