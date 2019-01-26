@@ -83,10 +83,23 @@
 	background-repeat: repeat-x;
 }
 
+#crazy_splash {
+	background-color: #753131;
+    border-radius: 14px;
+    padding: 12px;
+    font-size: 2em;
+    width: 50%;
+    margin: auto;
+
+    a {
+	    color: white;
+	    text-decoration: underline;
+    }
+}
 
 #screenshots {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 #owl-demo {
