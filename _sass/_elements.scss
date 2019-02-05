@@ -15,7 +15,7 @@
 	padding: 0 0 0 50px;
 	width: 960px;
 	height: 50px;
-	background-color: #a67d3d;
+	background-color: $skyturns-gold;
 	border-radius: 30px;
 	position: relative;
 }
@@ -30,7 +30,7 @@
 	text-decoration: none;
 }
 .fixed-nav-bar .container div.active {
-	background-color: lighten( #a67d3d, 20%);
+	background-color: lighten( $skyturns-gold, 20%);
 }
 @media only screen and (max-device-width : 1050px) {
 	.fixed-nav-bar .container {
@@ -93,6 +93,21 @@
 
     a {
 	    color: white;
+	    text-decoration: underline;
+    }
+}
+
+#info_splash {
+	background-color: $skyturns-gold;
+	border-radius: 14px;
+	padding: 12px;
+	font-size: 1.2em;
+	color: white;
+	margin: auto;
+	margin-top: 25px;
+
+    a {
+	    color: black;
 	    text-decoration: underline;
     }
 }

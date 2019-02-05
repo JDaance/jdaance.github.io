@@ -7,8 +7,15 @@ menu_active: game
 <head>
   {% include head-commons.html %}
 
-  <link href="owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
-  <link href="owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="/assets/js/lib/moaijs.js"></script>     
+  <script type="text/javascript" src="/assets/js/lib/underscore.js"></script>     
+
+  <script type="text/javascript" src="/assets/js/moaihost.js"></script>
+  <script type="text/javascript" src="/assets/js/MoaiManager.js"></script> 
+  <script type="text/javascript" src="/assets/js/UI.js"></script> 
+  <script type="text/javascript" src="/assets/js/Game.js"></script> 
   
   <!-- for Twitter -->          
   <meta name="twitter:description" content="A challenge for speed in three dimensions!" />
@@ -23,11 +30,28 @@ menu_active: game
   <div id="crazy_splash">
     <a href="{% post_url 2019-01-26-looking-for-developer-partner %}">Looking for developer!<br/>Read more here!</a>
   </div>
+
+  <div id="info_splash">
+    Game is up and running here in the browser, but very buggy. Stay tuned!
+  </div>
   
-  <div class="panel-press">
-    <canvas id="game" />
+  <div class="game-panel">
+    <canvas id="game-canvas" />
   </div>
 </div>
+
+<div id="loading-wrapper">
+  <div id="loading-overlay"></div>
+  <div id="loading"><div>Downloading...</div></div>
+</div>
+
+<script type="text/javascript">
+
+  $().ready(function() {
+    Game.init();
+  });
+
+</script>
 
 </body>
 </html>

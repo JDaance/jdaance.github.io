@@ -7,9 +7,12 @@ $background-light: rgb(234, 242, 247);
 $background-dark: #DDD;
 $code-background: #FFF;
 
+$skyturns-gold: #a67d3d;
+
 @import "reset";
 @import "jekyll-base";
 @import "syntax-highlighting";
 @import "base";
 @import "elements";
 @import "elements-blog";
+@import "game";

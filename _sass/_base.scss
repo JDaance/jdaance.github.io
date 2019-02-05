@@ -1,7 +1,6 @@
 
-html{height: 100%;}
+html{}
 body {
-	height: 100%;
 	background-color: $background-light;
 	color: rgba(34,34,34,0.8);
 	font-family: verdana;
@@ -11,7 +10,7 @@ body {
 }
 
 a, a:visited {
-	color: #a67d3d;
+	color: $skyturns-gold;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 26px;
 	font-weight: bold;
-	color: #a67d3d;
+	color: $skyturns-gold;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 white,
     -1px 1px 0 white,
