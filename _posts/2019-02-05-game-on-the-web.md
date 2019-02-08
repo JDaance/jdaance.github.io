@@ -10,11 +10,8 @@ The goal is to have the complete game and its ecosystem with best times, editor,
 
 Major bugs right now:
 
-- Cant control the character
-- Weird graphical glitches
-- Just hangs when entering menu / dying / pausing
+- Cant finish level, kind of crashes
 - No sound or music
-- I thiiink it might not work in chrome, only firefox right now
 
 Improvements coming, stay tuned :)
 

@@ -9,12 +9,12 @@ menu_active: game
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-  <script type="text/javascript" src="/assets/js/lib/moaijs.js"></script>     
+  <script type="text/javascript" src="/assets/js/moai/moaijs.js"></script>
+
+  <script type="text/javascript" src="/assets/js/lib/howler.js"></script>   
   <script type="text/javascript" src="/assets/js/lib/underscore.js"></script>     
 
   <script type="text/javascript" src="/assets/js/moaihost.js"></script>
-  <script type="text/javascript" src="/assets/js/MoaiManager.js"></script> 
-  <script type="text/javascript" src="/assets/js/UI.js"></script> 
   <script type="text/javascript" src="/assets/js/Game.js"></script> 
   
   <!-- for Twitter -->          
@@ -32,23 +32,18 @@ menu_active: game
   </div>
 
   <div id="info_splash">
-    Game is up and running here in the browser (on Firefox), but very buggy. Stay tuned!
+    Game is up and running here in the browser, but crashes on level finish. Stay tuned!
   </div>
   
   <div class="game-panel">
-    <canvas id="game-canvas" />
+    <div id="game-player" />
   </div>
-</div>
-
-<div id="loading-wrapper">
-  <div id="loading-overlay"></div>
-  <div id="loading"><div>Downloading...</div></div>
 </div>
 
 <script type="text/javascript">
 
   $().ready(function() {
-    Game.init();
+    Game.init($("#game-player"));
   });
 
 </script>
