@@ -1,56 +1,52 @@
 ---
-title: Game
-menu_active: game
+layout: blog-base
+title: Home
+menu_active: blog
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  {% include head-commons.html %}
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-  <script type="text/javascript" src="/assets/js/moai/moaijs.js"></script>
-
-  <script type="text/javascript" src="/assets/js/lib/howler.js"></script>   
-  <script type="text/javascript" src="/assets/js/lib/underscore.js"></script>     
-  <script type="text/javascript" src="/assets/js/lib/promise.js"></script>     
-
-  <script type="text/javascript" src="/assets/js/host/RomLoader.js"></script>
-  <script type="text/javascript" src="/assets/js/host/MoaiJS.js"></script>
-  <script type="text/javascript" src="/assets/js/host/MoaiPlayer.js"></script>
-  <script type="text/javascript" src="/assets/js/IframeMgr.js"></script> 
-  <script type="text/javascript" src="/assets/js/LuaMessages.js"></script> 
-  <script type="text/javascript" src="/assets/js/Game.js"></script> 
-  
-  <!-- for Twitter -->          
-  <meta name="twitter:description" content="A challenge for speed in three dimensions!" />
-  <meta name="twitter:image" content="http://skyturns.se/images/screenshots/Skyturns1.png" />
-</head>
-<body>
-  
-{% include header.html %}
-
-<div class="content press">
-
-  <div id="info_splash">
-    Game is up and running here in the browser, try it! Fixes coming, stay tuned!
-  </div>
-  
-  <div class="game-panel">
-    <div id="game-player"></div>
-    <div id="game-iframe-wrapper">
-      <iframe></iframe>
+<div id="logo_left_container">
+    <div id="logo_left">
     </div>
-  </div>
 </div>
 
-<script type="text/javascript">
+<div id="logo_center">
+    <img src="images/logo.png" width="474" height="180" />    
+</div>
 
-  $().ready(function() {
-    Game.init($("#game-player"), $("#game-iframe-wrapper"));
-  });
+<div id="logo_right_container">
+    <div id="logo_right">
+    </div>
+</div>
 
-</script>
+<div class="content blog">
 
-</body>
-</html>
+  <h1 class="center">The awesome game about flow and mastery</h1>
+  
+  <img class="framed" src="{{ site.baseurl }}/assets/downtown-hot-bod.jpg" />
+  
+  <div id="storebuttons">
+    <a href="https://play.google.com/store/apps/details?id=se.skyturns">
+        <img src="images/googleplay.png" /></a>
+      <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://itunes.apple.com/app/skyturns/id938219594?mt=8" target="itunes_store">
+        <img src="images/appstore.png" /></a>-->
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        
+        <div class="post-short">
+
+          <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+        
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        
+          <p>{{ post.excerpt }}</p>
+          <p>...</p>
+          <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

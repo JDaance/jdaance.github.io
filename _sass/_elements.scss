@@ -65,7 +65,7 @@
 	/* not important */
 	color: #FFF;
 	height: 180px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 	margin-top: $top-margin;
 }
 #logo_right_container {
@@ -141,7 +141,8 @@
 }
 
 #storebuttons {
-	margin-top: 50px;
+	margin-top: 10px;
+	padding-bottom: 30px;
 	opacity: 0.8;
 }
 
@@ -231,4 +232,49 @@ p.image-caption {
 	margin-top: 0px;
 	font-size: 12px;
 	font-style: italic;
+}
+
+.post-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.content.blog {
+	margin-top: 85px;
+}
+
+.post-title {
+	@extend h1;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.post-title a {
+	text-decoration: none;
+}
+.post-meta {
+	@extend h2;
+}
+
+.post-short {
+	@extend .light-panel;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.post {
+	@extend .light-panel;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+
+.post-content img, .post-content iframe, img.framed {
+	border: 5px solid;
+	border-radius: 9px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
