@@ -10,7 +10,7 @@ menu_active: blog
 </div>
 
 <div id="logo_center">
-    <img src="images/logo.png" width="474" height="180" />    
+    <img src="images/logo.png"/>    
 </div>
 
 <div id="logo_right_container">
@@ -32,21 +32,16 @@ menu_active: blog
         <img src="images/appstore.png" /></a>-->
   </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        
-        <div class="post-short">
+  {% for post in site.posts %}
+    <div class="post-short">
 
-          <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        
-          <p>{{ post.excerpt }}</p>
-          <p>...</p>
-          <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+      <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    
+      <p>{{ post.excerpt }}</p>
+      <p>...</p>
+      <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+    </div>
+  {% endfor %}
 </div>
