@@ -3,6 +3,7 @@
   <nav class="fixed-nav-bar">
     <div class="container">
       <div {% if page.menu_active == 'blog' or page.date %}class="active"{% endif %}><a href="/">Blog</a></div>
+      <div {% if page.menu_active == 'discord' %}class="active"{% endif %}><a href="https://discord.gg/yMk2PZb">Discord</a></div>
       <div {% if page.menu_active == 'forum' %}class="active"{% endif %}><a href="https://discourse.skyturns.se">Forum</a></div>
     </div>
   </nav>
