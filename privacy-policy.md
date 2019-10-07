@@ -27,7 +27,7 @@ Link to privacy policy of third party service providers used by the app
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
 *   [Flurry Analytics](https://privacy.oath.com)
-*   [Chartboost](https://answers.chartboost.com/en-us/articles/200780269)
+*   [Google AdMob](https://policies.google.com/technologies/ads)
 
 **Log Data**
 
