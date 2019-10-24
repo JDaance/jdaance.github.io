@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dev Update - Week 42
-category: news
+category: devlog
 ---
 
 This week we are looking forward to releasing the level editor and complementary game update to facilitate level sharing. When it’s done players will be able to create and share levels effortlessly.
