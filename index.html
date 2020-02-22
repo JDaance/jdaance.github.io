@@ -31,16 +31,5 @@ menu_active: blog
         <img src="images/appstore.png" /></a>-->
   </div>
 
-  {% for post in site.posts %}
-    <div class="post-short">
-
-      <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-    
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    
-      <p>{{ post.excerpt }}</p>
-      <p>...</p>
-      <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-    </div>
-  {% endfor %}
+  <a class="twitter-timeline" data-width="85%" href="https://twitter.com/SkyturnsGame?ref_src=twsrc%5Etfw">Tweets by SkyturnsGame</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </div>
